@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="#00FFCC"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextTieude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textThem"
+        android:layout_marginTop="10dp"
+        android:hint="Nhập tiêu đề" />
+
+    <TextView
+        android:id="@+id/textThem"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textColor="#ff00"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="Thêm nội dung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/editTextNoiDung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textThem"
+        android:layout_marginTop="61dp"
+        android:hint="Nhập nội dung" />
+
+    <Button
+        android:id="@+id/btnThem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextNoiDung"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:text="Thêm" />
+
+    <Button
+        android:id="@+id/btnHuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextNoiDung"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="11dp"
+        android:layout_toRightOf="@+id/btnThem"
+        android:text="Hủy" />
+
+</RelativeLayout>
